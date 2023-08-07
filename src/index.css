@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.clip-top-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
+  
+.clip-bottom-right {
+    clip-path: polygon(0 50%, 100% 100%, 100% 100%, 0 100%);
+}
