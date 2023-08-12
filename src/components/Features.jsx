@@ -8,10 +8,10 @@ import card3 from '../assets/card3.png';
 
 export const Features = () => {
     return (
-        <section className="py-10 md:pt-20 container mx-auto">
+        <section className="py-10 md:pt-20 container mx-auto max-w-[1200px]">
             <Title text={'Features'} color={'dark'} />
 
-            <div className="flex flex-col md:flex-row items-center justify-center my-10">
+            <div className="flex flex-col md:flex-row items-center justify-center my-10 mx-10 md:mx-0">
                 <ImageCard
                     imageSrc={card1}
                     defaultText="Evaluación de calidad"

@@ -6,7 +6,7 @@ export const ImageCard = ({ imageSrc, defaultText, hoverText }) => {
 
     return (
         <div
-            className={`relative overflow-hidden w-64 h-64 m-4 hover:cursor-pointer`}
+            className={`relative overflow-hidden w-full h-full m-4 hover:cursor-pointer`}
             style={{ boxShadow: hovered ? '14px 14px 1px 0px rgba(2, 177, 186, 1)' : 'none'}}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
