@@ -8,7 +8,7 @@ import service4 from '../assets/png/service4.png';
 
 export const Services = () => {
     return (
-        <section className="py-10 md:pt-20 px-10 md:px-0 bg-black">
+        <section id="services" className="py-10 md:pt-20 px-10 md:px-0 bg-black">
             <div className="container mx-auto max-w-[1200px]">
                 <Title text={'Services'} color={'white'} />
 

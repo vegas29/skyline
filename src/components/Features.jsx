@@ -8,7 +8,7 @@ import card3 from '../assets/png/card3.png';
 
 export const Features = () => {
     return (
-        <section className="py-10 md:pt-20 container mx-auto max-w-[1200px]">
+        <section id="features" className="py-10 md:pt-20 container mx-auto max-w-[1200px]">
             <Title text={'Features'} color={'dark'} />
 
             <div className="flex flex-col md:flex-row gap-10 items-center justify-between my-20 mx-10 md:mx-0">
