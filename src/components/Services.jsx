@@ -1,10 +1,10 @@
 import { ServiceCard } from "./ServiceCard";
 import { Title } from "./Title";
 
-import service1 from '../assets/service1.png';
-import service2 from '../assets/service2.png';
-import service3 from '../assets/service3.png';
-import service4 from '../assets/service4.png';
+import service1 from '../assets/png/service1.png';
+import service2 from '../assets/png/service2.png';
+import service3 from '../assets/png/service3.png';
+import service4 from '../assets/png/service4.png';
 
 export const Services = () => {
     return (

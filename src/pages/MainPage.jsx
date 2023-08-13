@@ -4,9 +4,7 @@ import { Features } from "../components/Features";
 import { Hero } from "../components/Hero";
 import { Services } from "../components/Services";
 import { Footer } from "../components/Footer";
-
-
-
+import { Portfolio } from "../components/Portfolio";
 
 export const MainPage = () => {
   return (
@@ -15,7 +13,8 @@ export const MainPage = () => {
       <AboutUs/>
       <Features/>
       <Services/>
-      {/* <BottomMenu/> */}
+      <BottomMenu/>
+      <Portfolio/>
       <Footer/>
     </>
   )

@@ -2,9 +2,9 @@ import { ImageCard } from "./ImageCard";
 import { Title } from "./Title";
 
 //Imgs
-import card1 from '../assets/card1.png';
-import card2 from '../assets/card2.png';
-import card3 from '../assets/card3.png';
+import card1 from '../assets/png/card1.png';
+import card2 from '../assets/png/card2.png';
+import card3 from '../assets/png/card3.png';
 
 export const Features = () => {
     return (
