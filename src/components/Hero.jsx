@@ -16,7 +16,7 @@ export const Hero = () => {
                         <p className="text-white text-md mt-5">{t('Transforming your vision into a digital reality')}</p>
                     </div>
 
-                    <Button textButton={'Ir a la página'}/>
+                    <Button textButton={'Ir a la página'} link={'#aboutus'}/>
 
                 </div>
 
@@ -25,15 +25,21 @@ export const Hero = () => {
                     <div className="none md:border-l-2 border-cyan-400 h-24 mx-auto mt-10"></div>
                     <div className="text-cyan-400 flex md:flex-col gap-3">
                         <div>
-                            <i className="fa-brands fa-facebook-f hover:cursor-pointer"></i>
+                            <a href='https://www.linkedin.com/in/sandra-milena-alzate-alzate-24a97b1b0/' target='_blank' rel="noreferrer">
+                                <i className="fa-brands fa-facebook-f hover:cursor-pointer"></i>
+                            </a>
                         </div>
 
                         <div>
-                            <i className="fa-brands fa-twitter hover:cursor-pointer"></i>
+                            <a href='https://twitter.com/' target='_blank' rel="noreferrer">
+                                <i className="fa-brands fa-twitter hover:cursor-pointer"></i>
+                            </a>
                         </div>
 
                         <div>
-                            <i className="fa-brands fa-linkedin-in hover:cursor-pointer"></i>
+                            <a href='https://www.linkedin.com/in/sandra-milena-alzate-alzate-24a97b1b0/' target='_blank' rel="noreferrer">
+                                <i className="fa-brands fa-linkedin-in hover:cursor-pointer"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

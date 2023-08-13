@@ -20,7 +20,7 @@ export const ImageCard = ({ imageSrc, defaultText, hoverText }) => {
                 className={`absolute inset-0 flex items-center justify-center transition-opacity ${hovered ? 'opacity-0' : 'opacity-100'}`}
             >
                 <div className="bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
-                    <p className="text-white text-center">{defaultText}</p>
+                    <p className="text-white text-center p-2">{defaultText}</p>
                 </div>
             </div>
             <div
