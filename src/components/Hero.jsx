@@ -1,7 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import hero from '../assets/png/hero.png';
 import { Button } from './Button';
 
 export const Hero = () => {
+
+    const { t } = useTranslation();
+
     return (
         <header id='hero' className="bg-black h-[700px] md:h-[700px] text-center relative z-30">
             <div className="z-40 relative container flex flex-col md:grid md:grid-cols-12 grid-rows-12 justify-center items-center h-full mx-auto md:pt-5 text-center">
@@ -9,7 +13,7 @@ export const Hero = () => {
                 <div className="col-start-2 col-end-12 md:col-start-5 md:col-end-9 grid grid-cols-12 grid-rows-12 justify-center items-center h-full">
                     <div className="col-start-1 col-end-13 row-start-4 row-end-5">
                         <h2 className="text-white text-2xl lg:text-3xl font-bold uppercase">Skyline</h2>
-                        <p className="text-white text-md mt-5">Transformando tu visión en una realidad digital</p>
+                        <p className="text-white text-md mt-5">{t('Transforming your vision into a digital reality')}</p>
                     </div>
 
                     <Button textButton={'Ir a la página'}/>
