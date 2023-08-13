@@ -26,25 +26,25 @@ export const Portfolio = () => {
                 <Title text={'Portfolio'} color={'white'} />
 
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-10 mt-10 md:mt-20">
-                    <PortfolioCard defaultText={'Bugitech'} imageSrc={work1}>
+                    <PortfolioCard defaultText={'Bugitech'} imageSrc={work1} link={'https://bugitech.netlify.app/'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoReact} alt="Logo React" />    
                             <img src={logoTailwind} alt="Logo Tailwind"/>    
                         </div>
                     </PortfolioCard>
-                    <PortfolioCard defaultText={'Arquitectura Bosque'} imageSrc={work2}>
+                    <PortfolioCard defaultText={'Arquitectura Bosque'} imageSrc={work2} link={'https://architectureforest.netlify.app/'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoReact} alt="Logo React" />    
                             <img src={logoCSS} alt="Logo css3" className="h-10 text-white" />    
                         </div>
                     </PortfolioCard>
-                    <PortfolioCard defaultText={'Blog Cafe'} imageSrc={work3}>
+                    <PortfolioCard defaultText={'Blog Cafe'} imageSrc={work3} link={'https://blogdelcafev2.netlify.app/'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoHTML} alt="Logo HTML" className="h-12 text-white" />    
                             <img src={logoCSS} alt="Logo css3" className="h-10 text-white" />  
                         </div>
                     </PortfolioCard>
-                    <PortfolioCard defaultText={'Tifi'} imageSrc={work4}>
+                    <PortfolioCard defaultText={'Tifi'} imageSrc={work4} link={'https://virgin-entregas.netlify.app/login'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoReact} alt="Logo React" />    
                             <img src={logoBoot} alt="Logo Bootstrap" className="h-10 text-white" />  
@@ -56,7 +56,7 @@ export const Portfolio = () => {
                             <img src={logoFirebase} alt="Logo Firebase" className="h-10 text-white" />  
                         </div>
                     </PortfolioCard>
-                    <PortfolioCard defaultText={'TechnoStoreLA'} imageSrc={work6}>
+                    <PortfolioCard defaultText={'TechnoStoreLA'} imageSrc={work6} link={'https://technostorela.netlify.app/'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoReact} alt="Logo React" />    
                             <img src={logoStrapi} alt="Logo Strapi" className="h-10 text-white" />  
@@ -64,9 +64,11 @@ export const Portfolio = () => {
                     </PortfolioCard>
                 </div>
 
-                <div className="flex justify-center mt-10"> 
+                {/* Habilitar cuanto metamos los otros proyectos */}
+
+                {/* <div className="flex justify-center mt-10"> 
                     <Button textButton={'Más proyectos'}/>
-                </div>
+                </div> */}
             </div>
         </section>
     )
