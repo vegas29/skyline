@@ -21,7 +21,7 @@ import logoStrapi from '../assets/svg/strapi.svg';
 
 export const Portfolio = () => {
     return (
-        <section className="py-10 md:pt-20 px-10 md:px-0 bg-black">
+        <section id="portfolio" className="py-10 md:pt-20 px-10 md:px-0 bg-black">
             <div className="container mx-auto max-w-[1200px]">
                 <Title text={'Portfolio'} color={'white'} />
 

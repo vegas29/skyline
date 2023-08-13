@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.clip-top-left {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
-}
-  
-.clip-bottom-right {
-    clip-path: polygon(0 50%, 100% 100%, 100% 100%, 0 100%);
-}
-
-@layer utilities {
-    .shadow-custom {
-      @apply hover:shadow-md;
-      /* Aquí puedes ajustar la propiedad boxShadow según tu necesidad */
-      box-shadow: 14px 13px 3px 0px rgba(0, 0, 0, 0.75);
-    }
+html {
+    scroll-behavior: smooth;
 }

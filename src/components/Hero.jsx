@@ -3,7 +3,7 @@ import { Button } from './Button';
 
 export const Hero = () => {
     return (
-        <header className="bg-black h-[700px] md:h-[700px] text-center relative z-30">
+        <header id='hero' className="bg-black h-[700px] md:h-[700px] text-center relative z-30">
             <div className="z-40 relative container flex flex-col md:grid md:grid-cols-12 grid-rows-12 justify-center items-center h-full mx-auto md:pt-5 text-center">
 
                 <div className="col-start-2 col-end-12 md:col-start-5 md:col-end-9 grid grid-cols-12 grid-rows-12 justify-center items-center h-full">

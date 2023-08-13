@@ -2,7 +2,7 @@ import { Title } from "./Title";
 
 export const AboutUs = () => {
     return (
-        <section className="px-14 py-10 md:py-20 bg-black">
+        <section id="aboutus" className="px-14 py-10 md:py-20 bg-black">
 
             <div className="container max-w-[1200px] mx-auto">
                 <Title text={'About Us'} color={'white'} />
