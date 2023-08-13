@@ -9,8 +9,7 @@ export const AboutUs = () => {
 
                 <div className="border-l-4 border-cyan-400 mt-10 text-white">
                     <p className="text-left pl-5 pt-5">
-                        Somos un team experimentado en diseño y desarrollo web, inmersos en el fascinante mundo tecnológico. Mantenemos años de experiencia y seguimos actualizados con las tendencias más recientes. Nuestra meta es llevar sus ideas y proyectos a un nivel superior, fusionando creatividad y tecnología para lograr resultados excepcionales. 
-                    </p>
+                     Somos un equipo experimentado en el diseño de interfaces gráficas y desarrollo de plataformas en entornos web, móvil y escritorio, inmersos en el fascinante mundo tecnológico. Estamos capacitados para grandes retos y nos mantenemos actualizados con las últimas tendencias. Nuestro objetivo es llevar tus ideas y proyectos al siguiente nivel, fusionando creatividad y tecnología para conseguir resultados excepcionales.                     </p>
                     <p className="text-left pl-5 py-5">
                         ¡Saludos!
                     </p>
