@@ -6,7 +6,7 @@ export const ServiceCard = ({ imageSrc, defaultText, hoverText }) => {
 
   return (
     <div
-      className={`relative overflow-hidden w-full h-full md:m-4 hover:cursor-pointer transition-transform hover:-translate-y-5`}
+      className={`relative overflow-hidden w-full h-full max-w-[300px] mx-auto hover:cursor-pointer transition-transform hover:-translate-y-5`}
       style={{ boxShadow: hovered ? '14px 14px 1px 0px rgba(2, 177, 186, 1)' : 'none'}}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}

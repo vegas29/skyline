@@ -11,7 +11,7 @@ export const Features = () => {
         <section className="py-10 md:pt-20 container mx-auto max-w-[1200px]">
             <Title text={'Features'} color={'dark'} />
 
-            <div className="flex flex-col md:flex-row items-center justify-center my-10 mx-10 md:mx-0">
+            <div className="flex flex-col md:flex-row gap-10 items-center justify-between my-20 mx-10 md:mx-0">
                 <ImageCard
                     imageSrc={card1}
                     defaultText="Evaluación de calidad"

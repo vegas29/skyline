@@ -12,7 +12,7 @@ export const Services = () => {
             <div className="container mx-auto max-w-[1200px]">
                 <Title text={'Services'} color={'white'} />
 
-                <div className="flex flex-col md:flex-row gap-10 md:gap-0 mt-10 md:mt-20">
+                <div className="flex flex-col md:flex-row gap-10 md:gap-10 mt-10 md:mt-20">
                     <ServiceCard defaultText={'Design'} imageSrc={service1}/>
                     <ServiceCard defaultText={'Web Development'} imageSrc={service2}/>
                     <ServiceCard defaultText={'Mobile Development'} imageSrc={service3}/>
