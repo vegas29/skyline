@@ -25,7 +25,7 @@ export const Portfolio = () => {
             <div className="container mx-auto max-w-[1200px]">
                 <Title text={'Portfolio'} color={'white'} />
 
-                <div className="flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-10 mt-10 md:mt-20">
+                <div className="flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-10 my-10 md:my-24">
                     <PortfolioCard defaultText={'Bugitech'} imageSrc={work1} link={'https://bugitech.netlify.app/'}>
                         <div className="flex justify-center gap-5 items-center">
                             <img src={logoReact} alt="Logo React" />    
