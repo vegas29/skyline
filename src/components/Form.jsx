@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
+import Swal from 'sweetalert2';
 import { useForm } from "../hooks/useForm";
-import Swal from 'sweetalert2'
 
 export const Form = () => {
+
+    const { t } = useTranslation();
     
     const initialForm = {
         name: '',
@@ -48,7 +51,7 @@ export const Form = () => {
                 value={name}
                 onChange={handleInputChange}
                 className="bg-gray-100 w-full p-3 rounded text-sm md:col-start-1 md:col-end-13"
-                placeholder={'Name'}
+                placeholder={t('Name')}
             />
 
             <textarea
@@ -57,7 +60,7 @@ export const Form = () => {
                 value={description}
                 onChange={handleInputChange}
                 className="bg-gray-100 w-full p-3 rounded text-sm md:col-start-1 md:col-end-13 md:h-24 resize-none"
-                placeholder={'Description'}
+                placeholder={t('Description')}
             >
             </textarea>
 
@@ -65,7 +68,7 @@ export const Form = () => {
                 type="submit"
                 className="bg-cyan-400 hover:bg-cyan-500 rounded p-2 text-white md:col-start-1 md:col-end-3"
             >
-                {'Submit'}
+                {t('Submit')}
             </button>
         </form>
     )

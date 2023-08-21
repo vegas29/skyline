@@ -7,6 +7,7 @@ import card2 from '../assets/png/card2.png';
 import card3 from '../assets/png/card3.png';
 
 export const Features = () => {
+
     return (
         <section id="features" className="py-10 md:pt-20 container mx-auto max-w-[1200px]">
             <Title text={'Features'} color={'dark'} />
@@ -14,18 +15,18 @@ export const Features = () => {
             <div className="flex flex-col md:flex-row gap-10 items-center justify-between my-20 mx-10 md:mx-0">
                 <ImageCard
                     imageSrc={card1}
-                    defaultText="Evaluación de calidad"
-                    hoverText="Tus soluciones se centran en la usabilidad y la interacción fluida para los usuarios."
+                    defaultText="Design"
+                    hoverText="We design with empathy, prioritizing the user experience to achieve intuitive and attractive products."
                 />
                 <ImageCard
                     imageSrc={card2}
-                    defaultText="Diseño responsivo"
-                    hoverText="Tus soluciones se centran en la usabilidad y la interacción fluida para los usuarios."
+                    defaultText="Constant innovation"
+                    hoverText="We keep abreast of the latest technologies to offer cutting-edge solutions."
                 />
                 <ImageCard
                     imageSrc={card3}
-                    defaultText="Funcionalidades avanzadas y rendimiento óptimo"
-                    hoverText="Tus soluciones se centran en la usabilidad y la interacción fluida para los usuarios."
+                    defaultText="Quality commitment"
+                    hoverText="We deliver robust and reliable products on time, exceeding expectations."
                 />
             </div>
         </section>

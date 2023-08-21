@@ -1,4 +1,5 @@
 export const Button = ({type, textButton, link = '#'}) => {
+
     return (
         <a href={link} className={`col-start-5 col-end-9 row-start-6 row-end-7 relative p-[9px] overflow-hidden text-black font-semibold text-md transition-colors duration-300 hover:text-gray-300`}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234 74" fill="none" className="absolute top-0 left-0 w-full h-full">

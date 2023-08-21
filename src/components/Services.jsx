@@ -14,9 +14,9 @@ export const Services = () => {
 
                 <div className="flex flex-col md:flex-row gap-10 md:gap-10 mt-10 md:mt-20">
                     <ServiceCard defaultText={'Design'} imageSrc={service1}/>
-                    <ServiceCard defaultText={'Web Development'} imageSrc={service2}/>
-                    <ServiceCard defaultText={'Mobile Development'} imageSrc={service3}/>
-                    <ServiceCard defaultText={'Desktop Development'} imageSrc={service4}/>
+                    <ServiceCard defaultText={'Web development'} imageSrc={service2}/>
+                    <ServiceCard defaultText={'Mobile development'} imageSrc={service3}/>
+                    <ServiceCard defaultText={'Desktop development'} imageSrc={service4}/>
                 </div>
             </div>
         </section>

@@ -16,12 +16,12 @@ export const Hero = () => {
                         <p className="text-white text-md mt-5">{t('Transforming your vision into a digital reality')}</p>
                     </div>
 
-                    <Button textButton={'Ir a la página'} link={'#aboutus'}/>
+                    <Button textButton={t('Go to page')} link={'#aboutus'}/>
 
                 </div>
 
                 <div className="md:col-start-12 md:col-end-13 flex md:flex-col items-center justify-center gap-10">
-                    <p className="md:rotate-90 text-cyan-400 uppercase text-[13px] font-bold">Social Networks</p>
+                    <p className="md:rotate-90 text-cyan-400 uppercase text-[13px] font-bold">{t('Social networks')}</p>
                     <div className="none md:border-l-2 border-cyan-400 h-24 mx-auto mt-10"></div>
                     <div className="text-cyan-400 flex md:flex-col gap-3">
                         <div>

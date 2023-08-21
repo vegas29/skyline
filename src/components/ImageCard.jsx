@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export const ImageCard = ({ imageSrc, defaultText, hoverText }) => {
+
+    const { t } = useTranslation();
 
     const [hovered, setHovered] = useState(false);
 
@@ -13,21 +16,21 @@ export const ImageCard = ({ imageSrc, defaultText, hoverText }) => {
         >
             <img
                 src={imageSrc}
-                alt="Imagen"
+                alt={"Imagen " + defaultText}
                 className={`w-full h-full transition-transform ${hovered ? 'scale-110 filter blur-sm' : ''}`}
             />
             <div
                 className={`absolute inset-0 flex items-center justify-center transition-opacity ${hovered ? 'opacity-0' : 'opacity-100'}`}
             >
                 <div className="bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
-                    <p className="text-white text-center p-2">{defaultText}</p>
+                    <p className="text-white text-center p-2">{t(`${defaultText}`)}</p>
                 </div>
             </div>
             <div
                 className={`absolute inset-0 p-4 text-white bg-black bg-opacity-50 transition-opacity ${hovered ? 'opacity-100' : 'opacity-0'}`}
             >
                 <div className="absolute inset-x-0 bottom-0 p-4 text-white text-left leading-5">
-                    {hoverText}
+                    {t(`${hoverText}`)}
                 </div>
             </div>
         </div>
