@@ -16,7 +16,7 @@ export const ContactUs = () => {
             </div>
 
             <div className='container max-w-[1000px] mx-auto md:-mt-28 bg-white p-20 shadow-md mb-16'>
-                <p className="text-xl font-bold mb-5">{t('Make your vision a reality with us')} 2</p>
+                <p className="text-xl font-bold mb-5">{t('Make your vision a reality with us')}</p>
                 <p>{t('Write to us, we will contact you soon')}</p>
                 <Form/>
             </div>
